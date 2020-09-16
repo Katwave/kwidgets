@@ -1,0 +1,30 @@
+@import "./style.css";
+
+// SCSS Functions
+@mixin flexCenter($dir) {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: $dir;
+}
+
+// SCSS Variables
+@mixin linkBackground($back) {
+  background: $back;
+}
+
+// default styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FORMS */
+@import "./widgets/form";
+/* BUTTONS */
+@import "./widgets/buttons";
+/* LINKS */
+@import "./widgets/links";
+/* MESSAGES */
+@import "./widgets/messages";

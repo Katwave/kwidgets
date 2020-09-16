@@ -1,0 +1,33 @@
+/* BUTTONS */
+.BTN {
+  padding: 10px 24px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  background: rgb(0, 134, 223);
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.BTN:hover {
+  box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.4);
+}
+.BTN-cute {
+  background: rgb(255, 45, 115);
+}
+.BTN-decline {
+  background: rgb(255, 0, 0);
+}
+.BTN-accept {
+  background: rgb(0, 250, 145);
+}
+.BTN-steam {
+  background: rgb(202, 200, 200);
+}
+.BTN-sunshine {
+  background: rgb(255, 174, 0);
+}
+.BTN-widow {
+  background: rgb(34, 34, 34);
+}

@@ -1,0 +1,490 @@
+@import url(c:\Users\Dell\Desktop\Kwidgets\css\style.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* FORMS */
+.contactForm {
+  margin-top: 5%;
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contactForm form label {
+  font-size: 24px;
+}
+
+.contactForm form input {
+  width: 700px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border: 3px solid #a060df;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 6px 6px 36px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 6px 6px 36px rgba(0, 0, 0, 0.2);
+}
+
+.contactForm form textarea {
+  width: 700px;
+  height: 50px;
+  resize: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 6px 6px 36px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 6px 6px 36px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: 3px solid #a060df;
+}
+
+.contactForm form button {
+  width: 700px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  background: blue;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 860px) {
+  .contactForm form input {
+    width: 500px;
+  }
+  .contactForm form button {
+    width: 500px;
+  }
+  .contactForm form textarea {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .contactForm form label {
+    font-size: 20px;
+  }
+  .contactForm form input {
+    width: 380px;
+  }
+  .contactForm form button {
+    width: 380px;
+  }
+  .contactForm form textarea {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .contactForm form input {
+    width: 290px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .contactForm form button {
+    width: 290px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .contactForm form textarea {
+    width: 290px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .contactForm form input {
+    width: 200px;
+  }
+  .contactForm form button {
+    width: 200px;
+  }
+  .contactForm form textarea {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .contactForm form input {
+    width: 150px;
+  }
+  .contactForm form button {
+    width: 150px;
+  }
+  .contactForm form textarea {
+    width: 150px;
+  }
+}
+
+/* BUTTONS */
+/* BUTTONS */
+.BTN {
+  padding: 10px 24px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  background: #0086df;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.BTN:hover {
+  -webkit-box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.4);
+}
+
+.BTN-cute {
+  background: #ff2d73;
+}
+
+.BTN-decline {
+  background: red;
+}
+
+.BTN-accept {
+  background: #00fa91;
+}
+
+.BTN-steam {
+  background: #cac8c8;
+}
+
+.BTN-sunshine {
+  background: #ffae00;
+}
+
+.BTN-widow {
+  background: #222222;
+}
+
+/* LINKS */
+.background-slide {
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 5px;
+  font-size: 24px;
+  background: #02b6fd;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.background-slide:hover {
+  color: #02b6fd;
+}
+
+.background-slide::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  border-radius: 4px;
+}
+
+.background-slide:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.underline-slide {
+  margin: 10px;
+  text-decoration: none;
+  color: #02b6fd;
+  border-radius: 5px;
+  font-size: 24px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.underline-slide::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(0.3);
+          transform: scaleX(0.3);
+  border-radius: 4px;
+}
+
+.underline-slide:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.background-slide-up {
+  margin: 10px;
+  text-decoration: none;
+  color: #02b6fd;
+  border-radius: 5px;
+  font-size: 24px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.background-slide-up:hover {
+  color: #02b6fd;
+}
+
+.background-slide-up::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+  border-radius: 4px;
+}
+
+.background-slide-up:hover::after {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+.background-animate {
+  margin: 10px;
+  text-decoration: none;
+  color: #02b6fd;
+  border-radius: 5px;
+  font-size: 24px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.background-animate:hover {
+  color: #02b6fd;
+}
+
+.background-animate::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  left: 100%;
+  top: 0%;
+  background: #fff;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  border-radius: 4px;
+  -webkit-box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.background-animate:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: animateHover 1s alternate infinite;
+          animation: animateHover 1s alternate infinite;
+}
+
+@-webkit-keyframes animateHover {
+  0% {
+    border-radius: 4px;
+  }
+  50% {
+  }
+  100% {
+    top: 0;
+    left: 0;
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+}
+
+@keyframes animateHover {
+  0% {
+    border-radius: 4px;
+  }
+  50% {
+  }
+  100% {
+    top: 0;
+    left: 0;
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+}
+
+.background-rotate {
+  margin: 10px;
+  text-decoration: none;
+  color: #02b6fd;
+  padding: 12px 40px;
+  border-radius: 5px;
+  font-size: 24px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  z-index: 1;
+  text-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.background-rotate::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  border-radius: 4px;
+  -webkit-animation: animateRotate 1s alternate infinite;
+          animation: animateRotate 1s alternate infinite;
+}
+
+.background-rotate:hover::after {
+  -webkit-transform: scaleX(1) rotate(12deg);
+          transform: scaleX(1) rotate(12deg);
+  -webkit-box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+          box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* MESSAGES */
+.chatContainer::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+.chatContainer::-webkit-scrollbar-track {
+  border: 2px solid rgba(161, 161, 161, 0.2);
+}
+
+.chatContainer::-webkit-scrollbar-thumb {
+  background: rgba(117, 116, 116, 0.5);
+  width: 2px;
+}
+
+.messages ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.messages ul li {
+  position: relative;
+  max-width: 800px;
+  display: inline-block;
+  clear: both;
+  padding: 16px;
+  color: #fff;
+  margin-bottom: 6px;
+  word-break: break-word;
+  -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#me {
+  float: right;
+  background: #0077ff;
+  border-radius: 30px 0px 30px 30px;
+  margin-right: 6px;
+}
+
+#them {
+  float: left;
+  background: #3a4046;
+  border-radius: 0px 30px 30px 30px;
+  margin-left: 6px;
+}
+
+#them + #me {
+  border-top-right-radius: 5px;
+}
+
+#me + #me {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#me:last-of-type {
+  border-bottom-right-radius: 30px;
+}
+
+/* 1000px width */
+@media screen and (max-width: 1000px) {
+  .messages ul li {
+    max-width: 300px;
+  }
+}
+/*# sourceMappingURL=scss.css.map */

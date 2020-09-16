@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KATSTYLE</title>
+    <link rel="stylesheet" href="./css/scss.css" />
+    <style>
+      /* Buttons */
+      .buttons {
+        width: 100%;
+        height: 10vh;
+        background: #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .buttons .BTN {
+        margin: 10px;
+      }
+
+      /* Links */
+      .links {
+        margin-top: 12%;
+        width: 100%;
+        height: 20vh;
+        background: #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+      }
+
+      /* Messages */
+      .messages {
+        margin-top: 12%;
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+        background: #d4d4d4;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="buttons">
+      <button class="BTN">CLICK</button>
+      <button class="BTN BTN-cute">CLICK</button>
+      <button class="BTN BTN-accept">CLICK</button>
+      <button class="BTN BTN-decline">CLICK</button>
+      <button class="BTN BTN-steam">CLICK</button>
+      <button class="BTN BTN-sunshine">CLICK</button>
+      <button class="BTN BTN-widow">CLICK</button>
+    </div>
+
+    <div class="contactForm">
+      <h1>Register</h1>
+      <form action="#">
+        <label for="name">Name:</label><br />
+        <input type="text" name="name" id="name" /><br /><br />
+        <label for="name">E-mail:</label><br />
+        <input type="text" name="email" id="email" /><br /><br />
+        <label for="phone">Phone no:</label><br />
+        <input type="text" name="phone" id="phone" /><br /><br />
+        <button class="BTN-widow">Submit</button>
+      </form>
+    </div>
+
+    <div class="links">
+      <a class="background-slide" href="#">Next Page</a>
+      <a class="underline-slide" href="#">Next Page</a>
+      <a class="background-slide-up" href="#">Next Page</a>
+      <a class="background-animate" href="#">Next Page</a>
+      <a class="background-rotate" href="#">Next Page</a>
+    </div>
+
+    <div class="messages">
+      <ul>
+        <li id="me">Hi fam!</li>
+        <li id="them">Awe dawg!</li>
+        <li id="me">Waddup?</li>
+        <li id="them">Dope fam you?</li>
+      </ul>
+    </div>
+
+    <script src="./js/form.js" async></script>
+    <script src="./js/input.js"></script>
+  </body>
+</html>
