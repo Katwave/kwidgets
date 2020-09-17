@@ -8,32 +8,32 @@
 
 ## BTN(basic button, blue),
 
-# BTN-cute (pink),
+## BTN-cute (pink),
 
-# BTN-accept (green),
+## BTN-accept (green),
 
-# BTN-decline (red),
+## BTN-decline (red),
 
-# BTN-steam (grey),
+## BTN-steam (grey),
 
-# BTN-sunshine (orange-yellow),
+## BTN-sunshine (orange-yellow),
 
-# BTN-widow (blackish).
+## BTN-widow (blackish).
 
 # Classes for links include:
 
-# background-slide,
+## background-slide,
 
-# underline-slide,
+## underline-slide,
 
-# background-slide-up,
+## background-slide-up,
 
-# background-animate,
+## background-animate,
 
-# background-rotate
+## background-rotate
 
 # IDs for message boxes include:
 
-# me (Your message),
+## me (Your message),
 
-# them (Other users' message),
+## them (Other users' message),
