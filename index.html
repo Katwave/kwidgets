@@ -15,6 +15,11 @@
         justify-content: center;
         align-items: center;
       }
+      @media screen and (max-width: 1200px) {
+        .buttons {
+          height: 20vh;
+        }
+      }
       .buttons .BTN {
         margin: 10px;
       }
@@ -40,6 +45,10 @@
         background: #d4d4d4;
         overflow: auto;
       }
+
+      h1 {
+        text-transform: uppercase;
+      }
     </style>
   </head>
   <body>
@@ -54,7 +63,7 @@
     </div>
 
     <div class="contactForm">
-      <h1>Register</h1>
+      <h1>Form</h1>
       <form action="#">
         <label for="name">Name:</label><br />
         <input type="text" name="name" id="name" /><br /><br />
@@ -67,6 +76,7 @@
     </div>
 
     <div class="links">
+      <h1>Links:</h1>
       <a class="background-slide" href="#">Next Page</a>
       <a class="underline-slide" href="#">Next Page</a>
       <a class="background-slide-up" href="#">Next Page</a>
@@ -75,6 +85,7 @@
     </div>
 
     <div class="messages">
+      <h1>Message boxes:</h1>
       <ul>
         <li id="me">Hi fam!</li>
         <li id="them">Awe dawg!</li>
