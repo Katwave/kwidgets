@@ -9,17 +9,14 @@
       /* Buttons */
       .buttons {
         width: 100%;
-        height: 10vh;
+        height: 100vh;
         background: #ddd;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
       }
-      @media screen and (max-width: 1200px) {
-        .buttons {
-          height: 20vh;
-        }
-      }
+
       .buttons .BTN {
         margin: 10px;
       }
@@ -28,12 +25,16 @@
       .links {
         margin-top: 12%;
         width: 100%;
-        height: 20vh;
+        height: 100vh;
         background: #ddd;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         overflow: auto;
+      }
+      .links a {
+        margin-top: 10px;
       }
 
       /* Messages */
@@ -41,9 +42,10 @@
         margin-top: 12%;
         position: absolute;
         width: 100%;
-        height: 30vh;
+        height: 50vh;
         background: #d4d4d4;
         overflow: auto;
+        padding: 10px;
       }
 
       h1 {
@@ -53,6 +55,7 @@
   </head>
   <body>
     <div class="buttons">
+      <h1 style="margin-bottom: 10px">Buttons:</h1>
       <button class="BTN">CLICK</button>
       <button class="BTN BTN-cute">CLICK</button>
       <button class="BTN BTN-accept">CLICK</button>
@@ -63,7 +66,7 @@
     </div>
 
     <div class="contactForm">
-      <h1>Form</h1>
+      <h1>Form:</h1>
       <form action="#">
         <label for="name">Name:</label><br />
         <input type="text" name="name" id="name" /><br /><br />
