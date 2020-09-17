@@ -1,0 +1,22 @@
+{
+  "name": "kwidgets",
+  "version": "1.0.0",
+  "description": "Library containing widgets you can use in your websites ",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katwave/kwidgets.git"
+  },
+  "author": "Katlego Mangoale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katwave/kwidgets/issues"
+  },
+  "homepage": "https://github.com/Katwave/kwidgets#readme"
+}
